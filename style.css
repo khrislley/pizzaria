@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Baloo2;
+    src: url(./fontes/Baloo2-Regular.ttf);
+}
+
+html{
+    font-family: 'Baloo2';
+}
+
+body{
+    font-family: 'Baloo2';
+    height: 800px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+}
+
+header{
+    height: 50px;  
+    background-color: #4CAF50;
+    margin: 0px auto;   
+    position: relative; 
+}
+
+.subHeader{
+    background-color: #4CAF50;
+}
+
+.subHeader :hover{
+    background-color: #4c8466;
+    padding-left: 5px;
+    padding-right: 5px;
+} 
+
+footer{
+    height: 42px;  
+    width: auto;
+    background-color: #4CAF50;
+    margin: 0px;   
+    position: relative; 
+}
+
+.login{
+    background-color: #4CAF50;
+    width: 350px;
+    height: 175px;
+    margin: 0px auto;
+    position: relative;   
+    border-radius: 15px;  
+}
+
+.menu{
+    height: 820px;
+    background-color: #4CAF50;
+    margin: 0px;
+}
+
+.menuOpcao{
+    font-size: 20px;
+    text-align:center;
+    
+    position: relative;
+    background-color: aliceblue;
+    width: 300px;
+    height: 250px;
+    
+    float: left;
+    margin-left: 130px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cont{
+    background-color: #4CAF50;
+    width: 150px;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.cont:hover{
+    background-color: #4c8466;
+    
+}
+
+.conteudo{
+    height: 795px;
+}
+
+.cadastrar{
+    background-color: #4CAF50;
+    height: 600px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    position: relative;   
+    border-radius: 15px;  
+}
+
+.procurar{
+    background-color: #4CAF50;
+    height: 175px;
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 50px;
+    position: relative;   
+    border-radius: 15px;  
+}
+
+.tabela{
+    border-collapse: collapse;
+    margin: 0px auto;
+    position: relative; 
+}
+.tabela td, #tabela th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.tabela tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.tabela tr:hover {
+    background-color: #ddd;
+}
+.tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    
+}
+
+
+.selecionarEditar{
+    background-color: #4CAF50;
+    height: 200px;
+    width: 400px;
+    margin: 0px auto;
+    margin-top: 50px;
+    position: relative;   
+    border-radius: 15px;  
+}
+
+.selecionarEnderecoEditar{
+    background-color: #4CAF50;
+    height: 200px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    position: relative;   
+    border-radius: 15px;  
+}
+
+
+.editar{
+    background-color: #4CAF50;
+    height: 650px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    position: relative;   
+    border-radius: 15px;  
+}
+
+.editarEndereco{
+    background-color: #4CAF50;
+    height: 650px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    position: relative;   
+    border-radius: 15px;  
+}
+
+.excluir{
+    background-color: #4CAF50;
+    height: 200px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    position: relative;   
+    border-radius: 15px;  
+}
+
+.status{
+    background-color: #4CAF50;
+    height: 200px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    position: relative;   
+    border-radius: 15px;  
+}
+
